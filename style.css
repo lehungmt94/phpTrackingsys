@@ -1,0 +1,195 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clr {
+    clear: both;
+}
+body {
+    background: none repeat scroll 0 0 #646255;
+    font-family: arial;
+}
+ul {
+    list-style: none outside none;
+}
+.wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto;
+    padding: 10px;
+    width: 980px;
+}
+#header {
+    height: 120px;
+}
+#content .content-left {
+    background: none repeat scroll 0 0 #4EA69A;
+    width: 300px;
+}
+#content h3 {
+    background: none repeat scroll 0 0 #00676B;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#content .content-left ul {
+    margin: 10px;
+}
+#content .content-left ul li {
+    border-bottom: 1px dotted #FFFFFF;
+    color: #FFFFFF;
+    list-style: disc inside none;
+    margin: 10px 0;
+}
+#content .content-left ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+	
+    text-decoration: none;
+}
+#content .content-right {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+	width: 670px;
+}
+.main-content {
+    margin-top: 10px;
+}
+#menu {
+    background: none repeat scroll 0 0 #00676B;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+#menu ul li {
+    float: left;
+    padding: 0 22px;
+}
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menu ul li.active, #menu ul li:hover {
+    background: none repeat scroll 0 0 #6EC3C9;
+}
+#footer {
+    background: none repeat scroll 0 0 #4EA69A;
+    height: 130px;
+    padding: 10px;
+	font-family: arial;
+	font-size: 14px
+}
+
+#left-footer{
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+
+#right-footer{
+	float: left;
+	height: 100px;
+	width: 300px;
+}
+
+#end-footer{
+	float: left;
+	height: 100px;
+	width: 400px;
+	text-align: center;
+}
+.items-new {
+}
+.items-new ul {
+    list-style: none outside none;
+}
+.items-new ul li {
+    border-bottom: 1px dotted #BBBBBB;
+    padding: 10px 0;
+}
+.items-new ul li h2 {
+    margin-bottom: 6px;
+}
+.items-new ul li h2 a {
+    color: #005949;
+    font-size: 15px;
+    text-decoration: none;
+}
+.items-new ul li .item p {
+    line-height: 18px;
+}
+
+/*contact*/
+.frmContact p {
+  color: #BCBCBC;
+  margin-bottom: 20px;
+}
+.frmContact .row {
+  margin-bottom: 10px;
+}
+.frmContact .row label {
+  display: block;
+  margin-bottom: 4px;
+}
+.frmContact .row input {
+  height: 24px;
+  width: 300px;
+}
+.frmContact .row input[type="submit"], .frmContact .row input[type="reset"] {
+  cursor: pointer;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+}
+.frmContact .row input[type="submit"]:hover,.frmContact .row input[type="reset"]:hover {
+	background: #F37125;
+}
+.frmContact .row textarea {
+  height: 100px;
+  padding: 4px;
+  width: 90%;
+}
+.button{
+background-color: #00676B; /* Green */
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+	border-radius: 3px 3px 3px 3px;
+
+}
+/*#contact*/
+
+
+/*Tracking*/
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: #00cca7;
+    color: white;
